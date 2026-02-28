@@ -23,7 +23,6 @@ impl Disc {
                 print!("{}|{} ", spaces, spaces);
             }
             else if self.size == 1 {
-                let spaces = " ".repeat(6);
                 print!("{}●{} ", spaces, spaces);
             }
         }
